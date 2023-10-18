@@ -1,40 +1,44 @@
-<!-- Add a Node.js Logo Image -->
+<!-- README Icon -->
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/vi/a/a7/Nodejs_logo_light.png">
+  <img src="https://example.com/your-icon-image.png" alt="Assignment Icon" width="100">
 </div>
 
-# Advanced Web Development Using Node.js
+# Assignment: Calculate Daily Target
 
-Welcome to the repository for my Node.js assignments as part of the "Advanced Web Development Using Node.js" course at [Your University Name].
+This repository contains a JavaScript function to calculate the daily sales target for a given date range. The function considers working days and a monthly sales target.
 
+## Function Overview
 
-## About the Course
+The `calculateDailyTarget` function calculates the daily sales target based on the following parameters:
 
-This repository contains my solutions for assignments in the "Advanced Web Development Using Node.js" course. It covers various topics, including:
+- Start date
+- End date
+- Monthly target
+- Working days (Monday to Thursday, excluding Tuesdays)
 
-- Node.js fundamentals
-- Express.js framework
+## Usage
 
-I'm excited to share my progress and learning journey with you through this repository.
+1. Set the start and end dates by running the script.
+2. The function will calculate and display the daily target, total working days, and monthly target.
 
-## Assignments
+## How to Use
 
-- [Assignment 1](assignment1/): 
-- [Assignment 2](assignment2/): 
-- [Assignment 3](assignment3/):
+```javascript
+// Function to calculate the daily target for a given date range
+function calculateDailyTarget(startDate, endDate) {
+  // ... (function code)
+}
 
-Please explore the individual assignment folders for specific details and code.
+// Set the start and end dates
+const startDate = prompt("Enter Start Date (YYYY-MM-DD):");
+const endDate = prompt("Enter End Date (YYYY-MM-DD):");
 
-## Connect with Me
+// Calculate the daily target, total working days, and monthly target
+const [dailyTarget, totalWorkingDays, monthlyTarget] = calculateDailyTarget(startDate, endDate);
 
-Let's stay in touch and connect on social media. Feel free to reach out for questions, collaborations, or just to say hi! 😄
-
-- LinkedIn: [Sumayo Cabdirisaaq Maxamuud](https://www.linkedin.com/in/sumayo-maxamuud/)
-- Facebook: [Sumayo Maxamuud](https://www.facebook.com/sumayo.maxamuud/)
-- Instagram: [sumayo.maxamuud](https://www.instagram.com/sumayo.maxamuud/)
-- Slack: [sumayo-maxamuud](https://slack.com/sumayo-maxamuud/)
-
-[![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)](https://www.linkedin.com/in/sumayo-maxamuud/)
-[![Facebook](https://img.icons8.com/color/48/000000/facebook.png)](https://www.facebook.com/sumayo.maxamuud/)
-[![Instagram](https://img.icons8.com/color/48/000000/instagram.png)](https://www.instagram.com/sumayo.maxamuud/)
-[![Slack](https://img.icons8.com/color/48/000000/slack.png)](https://slack.com/sumayo-maxamuud/)
+// Display the results in the console
+console.log("Start date: " + startDate);
+console.log("End date: " + endDate);
+console.log("Total working days: " + totalWorkingDays);
+console.log("Monthly target: " + monthlyTarget);
+console.log("The daily target is: " + dailyTarget);
