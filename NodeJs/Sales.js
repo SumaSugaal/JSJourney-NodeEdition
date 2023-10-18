@@ -19,15 +19,18 @@ function calculateDailyTarget(startDate, endDate) {
     // Calculate the daily target based on the total working days and monthly target
     const dailyTarget = monthlyTarget / totalWorkingDays;
 
-    return [dailyTarget.toFixed(2), totalWorkingDays, monthlyTarget];
+    // Calculate the total target for the date range
+    const totalTarget = dailyTarget * totalWorkingDays;
+
+    return [dailyTarget.toFixed(2), totalWorkingDays, monthlyTarget, totalTarget.toFixed(2)];
 }
 
 // Set the start and end dates
 const startDate = prompt("Enter Start Date (YYYY-MM-DD):");
 const endDate = prompt("Enter End Date (YYYY-MM-DD):");
 
-// Calculate the daily target, total working days, and monthly target
-const [dailyTarget, totalWorkingDays, monthlyTarget] = calculateDailyTarget(startDate, endDate);
+// Calculate the daily target, total working days, monthly target, and total target
+const [dailyTarget, totalWorkingDays, monthlyTarget, totalTarget] = calculateDailyTarget(startDate, endDate);
 
 // Display the results in the console
 console.log("Start date: " + startDate);
@@ -35,3 +38,4 @@ console.log("End date: " + endDate);
 console.log("Total working days: " + totalWorkingDays);
 console.log("Monthly target: " + monthlyTarget);
 console.log("The daily target is: " + dailyTarget);
+console.log("Total Target in accordance with the date range: " + totalTarget);
