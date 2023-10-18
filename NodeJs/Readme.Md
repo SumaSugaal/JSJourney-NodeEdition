@@ -1,17 +1,12 @@
 <!-- Add a Node.js Logo Image -->
 <div align="center">
-  <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width="150" alt="Node.js Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/vi/a/a7/Nodejs_logo_light.png">
 </div>
 
 # Advanced Web Development Using Node.js
 
 Welcome to the repository for my Node.js assignments as part of the "Advanced Web Development Using Node.js" course at [Your University Name].
 
-## Table of Contents
-
-- [About the Course](#about-the-course)
-- [Assignments](#assignments)
-- [Connect with Me](#connect-with-me)
 
 ## About the Course
 
@@ -19,16 +14,14 @@ This repository contains my solutions for assignments in the "Advanced Web Devel
 
 - Node.js fundamentals
 - Express.js framework
-- API development
-- Server-side scripting
 
 I'm excited to share my progress and learning journey with you through this repository.
 
 ## Assignments
 
-- [Assignment 1](assignment1/): A brief description of the first assignment.
-- [Assignment 2](assignment2/): Details about the second assignment.
-- [Assignment 3](assignment3/): Information about the third assignment.
+- [Assignment 1](assignment1/): 
+- [Assignment 2](assignment2/): 
+- [Assignment 3](assignment3/):
 
 Please explore the individual assignment folders for specific details and code.
 
