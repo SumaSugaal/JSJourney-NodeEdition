@@ -1,6 +1,6 @@
 <!-- README Icon -->
 <div align="center">
-  <img src="https://jumpseller.com/images/share/ecommerce-precio-de-mi-producto.jpg" alt="Assignment Icon" width="100">
+  <img src="https://jumpseller.com/images/share/ecommerce-precio-de-mi-producto.jpg" alt="Assignment Icon" width="300">
 </div>
 
 # Assignment: Calculate Daily Target
