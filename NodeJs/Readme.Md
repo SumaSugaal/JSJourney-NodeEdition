@@ -1,6 +1,6 @@
 <!-- README Icon -->
 <div align="center">
-  <img src="https://example.com/your-icon-image.png" alt="Assignment Icon" width="100">
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/009/596/520/small_2x/3d-illustration-of-calculator-icon-png.png">
 </div>
 
 # Assignment: Calculate Daily Target
