@@ -1,7 +1,7 @@
 # Node.js Todo List Application
 
 <div align="center">
-  <img src="https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png" alt="Assignment Icon" width="900">
+  <img src="https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png" alt="Assignment Icon" width="100">
 </div>
 
 ## Table of Contents
