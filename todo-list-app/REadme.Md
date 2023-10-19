@@ -1,6 +1,8 @@
 # Node.js Todo List Application
 
-![Project Image](https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png)
+<div align="center">
+  <img src="https://jumpseller.com/images/share/ecommerce-precio-de-mi-producto.jpg" alt="Assignment Icon" width="900">
+</div>
 
 ## Table of Contents
 
