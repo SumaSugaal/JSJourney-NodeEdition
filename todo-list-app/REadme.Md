@@ -1,6 +1,6 @@
 # Node.js Todo List Application
 
-![Project Image](your-image-url-here)
+![Project Image](https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png)
 
 ## Table of Contents
 
